@@ -1,0 +1,52 @@
+[
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c crypto/CryptoService.cpp -o crypto/CryptoService.o",
+    "file": "crypto/CryptoService.cpp"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c domain/CipherType.h -o domain/CipherType.o",
+    "file": "domain/CipherType.h"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c domain/ICipher.h -o domain/ICipher.o",
+    "file": "domain/ICipher.h"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c other/ConsoleUI.cpp -o other/ConsoleUI.o",
+    "file": "other/ConsoleUI.cpp"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c other/FileIO.cpp -o other/FileIO.o",
+    "file": "other/FileIO.cpp"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c other/PluginLoader.cpp -o other/PluginLoader.o",
+    "file": "other/PluginLoader.cpp"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c beaufort.cpp -o beaufort.o",
+    "file": "beaufort.cpp"
+  },
+  {
+    "directory": "/home/suz/projects/rgr",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c main.cpp -o main.o",
+    "file": "main.cpp"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c rsa.cpp -o rsa.o",
+    "file": "rsa.cpp"
+  },
+  {
+    "directory": ".",
+    "command": "g++ -std=c++17 -I./crypto -I./domain -I./other -c scytale.cpp -o scytale.o",
+    "file": "scytale.cpp"
+  }
+]
